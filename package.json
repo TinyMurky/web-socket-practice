@@ -4,6 +4,8 @@
   "description": "Practice Socket.io",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/TinyMurky/web-socket-practice#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "path": "^0.12.7",
     "socket.io": "^4.7.2"
   }
 }
